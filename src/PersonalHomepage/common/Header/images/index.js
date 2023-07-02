@@ -1,0 +1,1 @@
+export const myImage="https://i.postimg.cc/vTkFwP37/351040578-1694964497628708-4383450599782484564-n.jpg"
