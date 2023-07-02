@@ -1,8 +1,8 @@
 {
-  "name": "personal-homepage",
+  "name": "personal-homepage-master",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Fikol171.github.io/personal-homepage",
+  "homepage": "https://Fikol171.github.io/personal-homepage-master",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.16.5",
