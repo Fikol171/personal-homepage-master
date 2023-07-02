@@ -1,15 +1,14 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { SaveInLocalStorage, themeInLocalStorage } from "./themeLocalStorage";
+import { themeInLocalStorage } from "./themeLocalStorage";
 
 const themeSlice = createSlice({
   name: "theme",
   initialState: {
-    isTheme: themeInLocalStorage,
+    isTheme: themeInLocalStorage(),
   },
   reducers: {
     toggleTheme: (state) => {
       state.isTheme = !state.isTheme;
-      SaveInLocalStorage();
     },
   },
 });
