@@ -12,7 +12,7 @@ function App() {
   const isLigthTheme = useSelector(selectThemeState);
 
   return (
-    <div>
+    <>
       <ThemeProvider theme={isLigthTheme ? darkTheme : lightTheme}>
         <GlobalStyles />
         <ThemeButton />
@@ -23,7 +23,7 @@ function App() {
           content={skillsToLearn}
         />
       </ThemeProvider>
-    </div>
+    </>
   );
 }
 

@@ -2,8 +2,7 @@ export const AboutMe = {
   name: "Pawel Owiesek",
   content:
     " 👨🏻‍💻💻 I’m a passionate Frontend Developer in love with React,currently looking for new job opportunities.",
-  Email: "PawelOwiesek@gmail.com",
-  EmailTitle: "PawelOwiesek@gmail.com",
+  email: "PawelOwiesek@gmail.com",
   github: "https://github.com/PawelOwiesek",
   linkedIn: "www.linkedin.com/in/pawel-owiesek-9b5687244",
 };

@@ -23,9 +23,9 @@ const Header = () => (
       <EmailButton>
         <Envelope src={envelope} alt="Email" />
         <Link
-          href="mailto:{AboutMe.email}"
-          title="{AboutMe.EmailTitle}"
+          href={`mailto:${AboutMe.email}`}
           rel="noreferrer noopener"
+          title={`send Email to ${AboutMe.email}`}
         >
           Hire Me
         </Link>

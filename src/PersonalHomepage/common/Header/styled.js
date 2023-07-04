@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const HeaderContainer = styled.div`
+export const HeaderContainer = styled.header`
   display: grid;
   grid-template-columns: auto 1fr;
   column-gap: 66px;
